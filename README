@@ -1,0 +1,13 @@
+Name: Nandini Janapati
+UID: 628003891
+email: nandinij14@tamu.edu
+
+tmax value from Task 3: 5.0
+Task 6 time control function:
+	I chose to do only one cubic function
+	the 4 points of the cubic function: (0,0), (0.3, 0.5), (0.7, 0), (1,1)
+	the function: 10.71429x^{3}-14.88095x^{2}+5.16667x
+	a = 10.71429
+	b = -14.88095
+	c = 5.16667
+	d = 0
