@@ -1,13 +1,17 @@
-Name: Nandini Janapati
-UID: 628003891
-email: nandinij14@tamu.edu
+This was the first assignment I completed for my Computer Animation class at Texas A&M.
+The goal was to create a looping animation of a helicopter flying through the air using keyframed poses along a spline curve.
 
-tmax value from Task 3: 5.0
-Task 6 time control function:
-	I chose to do only one cubic function
-	the 4 points of the cubic function: (0,0), (0.3, 0.5), (0.7, 0), (1,1)
-	the function: 10.71429x^{3}-14.88095x^{2}+5.16667x
-	a = 10.71429
-	b = -14.88095
-	c = 5.16667
-	d = 0
+--------
+There are 5 keyframes, which can be toggled on or off with 'k'
+The animation cycles through different parametrization functions with 's' (total animation time is 5 seconds)
+	1. Linear time-parameter relationship: the helicopter will take the same amount of time to travel between each keyframe.
+	2. (Arc-length parameterization): the helicopter travels with constant speed. Equally spaced points on the spline are drawn.
+	3. Ease-in / Ease-out: the helicopter will momentarily stop at the start of the loop.
+	4. Custom control function
+		the 4 points of the cubic function: (0,0), (0.3, 0.5), (0.7, 0), (1,1)
+			the function: 10.71429x^{3}-14.88095x^{2}+5.16667x
+			a = 10.71429
+			b = -14.88095
+			c = 5.16667
+			d = 0
+Pressing the spacebar will change the camera to follow the helicopter and show the flight from the "pilot's" perspective.
