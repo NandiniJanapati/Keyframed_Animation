@@ -15,3 +15,7 @@ The animation cycles through different parametrization functions with 's' (total
 			c = 5.16667
 			d = 0
 Pressing the spacebar will change the camera to follow the helicopter and show the flight from the "pilot's" perspective.
+
+Rotate - click and drag
+Zoom - ctl + click and drag
+Pan - shift + click and drag
